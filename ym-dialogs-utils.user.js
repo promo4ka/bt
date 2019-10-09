@@ -7,6 +7,9 @@
 // @match        https://vk.com/*
 // @grant        none
 // @license    MIT
+// @updateURL https://openuserjs.org/meta/promo4ka/Плюшки_для_диалогов.meta.js
+// @downloadURL https://openuserjs.org/install/promo4ka/Плюшки_для_диалогов.user.js
+// @copyright 2019, promo4ka (https://openuserjs.org/users/promo4ka)
 // ==/UserScript==
 
 /**
