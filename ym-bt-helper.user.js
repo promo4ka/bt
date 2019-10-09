@@ -7,6 +7,9 @@
 // @match        https://vk.com/*
 // @grant        none
 // @license    MIT
+// @updateURL https://openuserjs.org/meta/promo4ka/Баг-трекер_плюшки.meta.js
+// @downloadURL https://openuserjs.org/install/promo4ka/Баг-трекер_плюшки.user.js
+// @copyright 2019, promo4ka (https://openuserjs.org/users/promo4ka)
 // ==/UserScript==
 
 (function() {
