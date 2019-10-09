@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Баг-трекер плюшки
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.1
 // @description  Меню с избранными продуктами на весь сайт
-// @author       @i_mrz
+// @author       i_mrz
 // @match        https://vk.com/*
 // @grant        none
+// @license    MIT
 // ==/UserScript==
 
 (function() {
