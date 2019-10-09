@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Плюшки для диалогов
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Всякие плюшки для диалогов
 // @author       i_mrz
 // @match        https://vk.com/*
@@ -35,7 +35,7 @@
 			position: fixed; right: 20px; top: 100px; width: 28px; height: 28px; border-radius: 28px;
 			opacity: .2; background: url(https://sun1.dataix-by-minsk.userapi.com/c623619/v623619208/56b89/ROWwg-PMTrQ.jpg) center center / cover;
 			box-shadow: inset 0 0 0 1px rgb(106, 152, 204); display: inline-block; margin: 0px 1px -1px 2px;
-			outline-offset: -1px; cursor: pointer; transition: .3s ease-in;
+			outline-offset: -1px; cursor: pointer; transition: .3s ease-in; z-index: 999999999;
 		}
 		.ym-menu:hover { opacity: 1 }
 		.ym-menu:hover > .ym-items { visibility: visible; opacity: 1; }

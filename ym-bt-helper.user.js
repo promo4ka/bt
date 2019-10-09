@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Баг-трекер плюшки
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Меню с избранными продуктами на весь сайт
 // @author       i_mrz
 // @match        https://vk.com/*
@@ -27,7 +27,7 @@
 				position: fixed; right: 20px; top: 60px; width: 28px; height: 28px; border-radius: 28px;
 				opacity: .2; background: url(https://pp.userapi.com/c639625/v639625391/42408/zj0kpTaIKiI.jpg) center center / cover;
 				box-shadow: inset 0 0 0 1px rgb(106, 152, 204); display: inline-block; margin: 0px 1px -1px 2px;
-				outline-offset: -1px; cursor: pointer; transition: .3s ease-in;
+				outline-offset: -1px; cursor: pointer; transition: .3s ease-in; z-index: 999999999;
 			}
 			.ym-bt-menu:hover { opacity: 1 }
 			.ym-bt-menu:hover > .ym-bt-products { visibility: visible; opacity: 1; }
