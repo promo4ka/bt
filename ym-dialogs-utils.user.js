@@ -6,6 +6,7 @@
 // @author       i_mrz
 // @match        https://vk.com/*
 // @grant        none
+// @license    MIT
 // ==/UserScript==
 
 /**
