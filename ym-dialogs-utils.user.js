@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Плюшки для диалогов
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Всякие плюшки для диалогов
 // @author       i_mrz
 // @match        https://vk.com/*
