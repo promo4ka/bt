@@ -1,0 +1,16 @@
+.im_msg_audiomsg:before {
+    content: 'Я плохой человек (голосовое)';
+    position: absolute;
+    color: #9ebbff;
+    transition: .3s;
+}
+.im_msg_audiomsg > div {
+	opacity: 0;
+    transition: .3s;
+}
+.im_msg_audiomsg:hover:before {
+    content: '';
+}
+.im_msg_audiomsg:hover > div {
+    opacity: 1;
+}
