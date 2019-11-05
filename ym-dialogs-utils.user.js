@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Плюшки для диалогов
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  Всякие плюшки для диалогов
 // @author       i_mrz
 // @match        https://vk.com/*
@@ -14,7 +14,7 @@
 
 /**
  * - Сделать все сообщения прочитанными
- * -
+ * - Спрятать показать все чаты
  */
 
 (function() {
@@ -48,6 +48,7 @@
 		.ym-bt-products ul li:last-child { border: none; text-overflow: ellipsis; overflow: hidden; }
 		.ym-items li { padding: 10px 20px; }
 		.ym-items li:hover { background: #841010; color: #fff; }
+		#im_dialogs.hide-chats li[data-peer^="200000"] { display: none; }
 	`;
 
 	window.ymReadAllDialogs = () => {
@@ -63,8 +64,14 @@
 		})
 	}
 
+    window.ymHideDialogs = () => {
+		const imList = document.getElementById('im_dialogs');
+		imList.classList.toggle('hide-chats');
+	}
+
 	const itemList = `
 		<li onclick="ymReadAllDialogs()">Прочитать все</li>
+		<li onclick="ymHideDialogs()">Show/Hide чаты</li>
 	`;
 
 	const initReadDialogs = () => {
